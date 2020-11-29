@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Welcome to PFM</title>
+    <style>
+        body{
+            background-color: #80D8FF;
+        }
+        .jumbotron{
+            font-family: Gabriola;
+            background-color: #4A148C;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            margin-left: 20%;
+            border-radius: 0px;
+        }
+        .table-hover tbody tr:hover{
+            background-color: #00B0FF;
+        }
+        .table thead{
+            background-color: #0091EA;
+            font-weight: 700;
+        }
+        .containerMenu{
+            padding-top: 10px;
+            position: fixed;
+            color: white;
+            height: 100%;
+            width: 20%;
+            background-color: #4A148C;
+        }
+        .containerData{
+            padding-left: 20%;
+        }
+        .btn{
+            text-align: left;
+            padding-left: 20px;
+            color: white;
+        }
+        .btn:hover{
+            background-color: #0091EA;
+        }
+        #active{
+            pointer-events: none;
+            font-weight: bold;
+        }
+        #add:hover{
+            fill: #4A148C;
+            border-radius: 24px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containerMenu">
+        <div class="nav flex-column">
+            <a class="btn nav-item" href="/account">Accounts</a>
+            <a class="btn nav-item" href="/creditor">Creditors</a>
+            <a class="btn nav-item" href="/debtor">Debtors</a>
+            <a class="btn nav-item" href="/income">Income</a>
+            <a class="btn nav-item" href="/insurance">Insurance</a>
+            <a class="btn nav-item" href="/mutualfunds">Mutual Funds</a>
+            <a class="btn nav-item" href="/share">Share Market</a>
+            <a class="btn nav-item" href="/transaction">Transactions</a>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Personal Finance Management</h1>
+        </div>
+    </div>
+    <div class="containerData">
+        <h1>
+            This is home page.
+        </h1>
+    </div>
+</body>
+</html>

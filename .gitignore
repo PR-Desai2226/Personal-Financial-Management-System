@@ -1,0 +1,7 @@
+# node
+node_modules
+    
+
+# sql Data
+project.sql
+server connection.sql
